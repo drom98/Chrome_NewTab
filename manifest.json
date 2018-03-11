@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "My New Tab Page",
+    "version": "0.1",
+    
+    
+    "description": "My New Override Tab Page for Chrome",
+    
+    "author": "Diogo Marques",
+    
+    "chrome_url_overrides" : {
+    "newtab": "newTabIndex.html" 
+    }
+}
