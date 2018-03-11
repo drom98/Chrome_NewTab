@@ -14,7 +14,7 @@ function renderHTML(data) {
     var localidade = data.name;
     var desc = data.weather[0].description;
     var icon = data.weather[0].icon;
-    var iconURL = "assets/icons/" + icon + ".png";
+    var iconURL = "https://raw.githubusercontent.com/drom98/Chrome_NewTab/master/assets/icons/" + icon + ".png";
 
     divLocalidade.insertAdjacentHTML('beforeend', localidade);
     divDesc.insertAdjacentHTML('beforeend', desc + "<img src='" + iconURL + "'>");
